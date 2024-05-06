@@ -1,5 +1,5 @@
 import datetime
-from db_config import DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER
+from application.db_config import DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER
 import psycopg2
 
 

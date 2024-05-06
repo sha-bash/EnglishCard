@@ -1,4 +1,4 @@
-from get_tokens import GetTokens
+from application.get_tokens import GetTokens
 import requests
 
 

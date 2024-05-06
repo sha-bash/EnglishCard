@@ -6,9 +6,9 @@ import telebot
 from telebot import types
 from translatepy import Translator
 
-from get_tokens import GetTokens
-from database import DatabaseManager
-from WordnikAPI import WordnikAPI
+from application.get_tokens import GetTokens
+from application.database import DatabaseManager
+from application.WordnikAPI import WordnikAPI
 
 
 bot = telebot.TeleBot(GetTokens.get_tokentg())
